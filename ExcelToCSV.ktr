@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
     <name>ExcelToCSV</name>
@@ -463,7 +464,7 @@
     <hop>
       <from>CSV file input</from>
       <to>Hadoop file output</to>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
     </hop>
     <hop>
       <from>CSV file input 2</from>
